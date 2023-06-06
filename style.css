@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Hacker';
+    src: url('hackerchaos.otf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+} 
+
+h1{
+font-family: 'Hacker';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 48px;
+color: #15ff08;
+text-align: center;
+}
+
+@font-face {
+    font-family: 'bruh';
+    src: url('ndsbios_memesbruh03.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+} 
+
+h2{
+    font-family: 'bruh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #15ff08;
+}
+
+@font-face {
+    font-family: 'bruh';
+    src: url('ndsbios_memesbruh03.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+} 
+
+h3{
+    font-family: 'bruh';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #15ff08;
+}
+
+img{
+    width: 50em;
+    border-radius: 1em;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: black;
+    color: #15ff08;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #15ff08;
+    color: black;
+  }
+
+  .divcenter {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'biotype';
+    src: url('Biotype.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+} 
+
+p{
+    font-family: 'biotype';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+    /* largura de toda a barra de rolagem */
+    body::-webkit-scrollbar {
+        width: 12px;               
+    }
+    
+        /* cor da área de rastreamento */
+    body::-webkit-scrollbar-track {
+        background: black;        
+    }
+      
+      body::-webkit-scrollbar-thumb {
+        /* cor do polegar de rolagem */
+        background-color: #15ff08;    
+        /* arredondamento do polegar de rolagem */
+        border-radius: 20px;       
+        /* cria preenchimento ao redor do polegar de rolagem */
+        border: 3px solid #15ff08;  
+    }
